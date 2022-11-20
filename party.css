@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    text-transform: uppercase;
+    background-color: rgb(0, 255, 76);
+    height: 60px;
+    margin-top: 10px;
+    width: 100%;
+}
+.header a
+{
+    padding: 10px;
+    width: 70px;
+    height: 40px;
+   
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    border:3px solid rgba(0, 0, 0, 0.835);
+   display:block;
+}
+.header a:hover
+{
+    background-color: green;
+}
+.header h1
+{
+    line-height: 0vh;
+    margin-left: 500px;
+    color:mediumvioletred
+}
+.image
+{
+    display: inline-flex;
+    margin-left: 200px;
+}
+.image img
+{
+    border-radius: 10px;
+    margin: 10px;
+    height: 400px;
+    width: 500px;
+}
+.image img{
+    transition: .2s;
+  }
+.image img:hover{
+    transform: rotate(20deg);
+  }
+.image1
+{
+    display: inline-flex;
+    margin-left: 200px;
+}
+.image1 img
+{
+    border-radius: 10px;
+    margin: 10px;
+    height: 400px;
+    width: 500px;
+}
+.image1 img{
+    transition: .2s;
+  }
+.image1 img:hover{
+    transform: rotate(20deg)
+  }
+.footer
+{
+    background-color: rgb(71, 108, 129);
+    text-transform: uppercase;
+}
+.footer img
+{
+    float: right;
+    margin-top: 2px;
+    margin-right: 850px ;
+    height: 80px;
+    width: 80px;
+}
+.footer hr
+{
+    border: 1px solid papayawhip;
+}

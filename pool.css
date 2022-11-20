@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,rgba(0, 0, 255, 0.438),pink);
+}
+.header
+{
+    text-transform: uppercase;
+    background-color: rgb(111, 0, 255);
+    height: 60px;
+    margin-top: 10px;
+    width: 100%;
+}
+.header a
+{
+    padding: 10px;
+    width: 70px;
+    height: 40px;
+   
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    border:3px solid rgba(0, 0, 0, 0.835);
+   display:block;
+}
+.header a:hover
+{
+    background-color: green;
+}
+.header h1
+{
+    line-height: 0vh;
+    margin-left: 500px;
+    color:mediumvioletred
+}
+
+.image1
+{
+    display: inline-flex;
+    margin-left: 500px;
+    background: linear-gradient(to bottom, red,blue);
+}
+.image1 img
+{
+    border-radius: 10px;
+    margin: 10px;
+    height: 400px;
+    width: 500px;
+}
+.image1 img{
+    transition: .2s;
+  }
+.image1 img:hover{
+    transform: rotate(20deg)
+  }
+
+  .image1{
+      animation-name: example;
+      animation-duration: 3s;
+      position: relative;
+
+  }
+  @keyframes example{
+      0%{
+          background: linear-gradient(to bottom, gray,yellow); left:0px;top: 0px;
+      }
+      25%{
+          background: linear-gradient(to bottom, gray,green);left:200px;top: 0px;
+      }
+      50%  {background: linear-gradient(to bottom, gray,pink); left:200px; top:200px;}
+      75%  {background: linear-gradient(to bottom, gray,blue); left:0px; top:200px;}
+      100% {background: linear-gradient(to bottom, gray,orange); left:0px; top:0px;}
+  }

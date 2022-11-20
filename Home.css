@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pic img
+{
+    height: 250px;
+    width: 100%;
+}
+.header
+{
+    height: 70px;
+    width: 100%;
+    text-transform: uppercase;
+}
+.header ul
+{
+    list-style: none;
+    display: inline-flex;
+    margin: 20px;
+    margin-top: 2px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    border:3px solid rgba(0, 0, 0, 0.835);
+   display:block;
+   border-radius: 10px;
+}
+.header li
+{
+    margin: 2px;
+    width: 185px;
+    border-color: black;
+    height: 50px;
+    line-height: 8vh;
+    border-radius: 15px;
+    text-align: center;
+    background-color: yellow;
+
+}
+.header ul li:hover{
+    background-color: green;
+}
+.dropdown
+{
+    display: none;
+}
+.header ul li:hover .dropdown
+{
+    display: block;
+    position: absolute;
+    margin-left: -25px;
+}
+.header ul li:hover .dropdown ul
+{
+    display: block;
+}
+.pics
+{
+    display: inline-flex;
+    padding: 20px;
+    width: 100%;
+}
+
+.leftimage1 img
+{
+    height: 350px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.rightimage1 img{
+    height: 550px;
+    width: 850px;
+    border-radius: 10px;
+}
+.footer
+{
+    background-color: gray;
+    text-transform: uppercase;
+    width: 100%;
+}
+.footer img
+{
+    float: right;
+    margin-top: 2px;
+    margin-right: 850px ;
+    height: 80px;
+    width: 80px;
+}
+.footer hr
+{
+    width: 100%;
+    border: 1px solid papayawhip;
+}

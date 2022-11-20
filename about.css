@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    text-transform: uppercase;
+    background-color: orange;
+    height: 60px;
+    margin-top: 10px;
+    width: 100%;
+}
+.header a
+{
+    padding: 10px;
+    width: 70px;
+    height: 40px;
+   
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    border:3px solid rgba(0, 0, 0, 0.835);
+   display:block;
+}
+.header a:hover
+{
+    background-color: green;
+}
+.header h1
+{
+    line-height: 0vh;
+    margin-left: 500px;
+}
+.paragragh p
+{
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.heading
+{
+    text-transform: uppercase;
+}
+.heading h2
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.heading p
+{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.assign p
+{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.image img
+{
+    margin-top: 80px;
+    margin-left: 250px;
+    height: 500px;
+    width: 900px;
+    margin-bottom: 80px;
+}
+.footer h1
+{
+    text-transform: uppercase;
+    text-align: center;
+}
